@@ -11,7 +11,7 @@ import skimage
 import skimage 
 from skimage import io
 import time
-from networks2.conv_layers import *
+from conv_layers import *
 import sys
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
