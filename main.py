@@ -140,7 +140,7 @@ class Siren(nn.Module):
 
         return activations
          
-
+n = 'path'
 # Reading images
 image = io.imread('./{n}/0.png'.format(n = n))
 image0 = io.imread('./{n}/1.png'.format(n = n))
@@ -258,7 +258,7 @@ for i in range(4,d-4):
     for j in range(4,d-4):
         warp_img[i,j,0] = warp_img[i-4:i+4,j-4:j+4,0].mean()
         warp_img[i,j,1] = warp_img[i-4:i+4,j-4:j+4,1].mean()
-np.save('./{n}.npy'.format(n = n), warp_img)
+np.save('./{n}/dis.npy'.format(n = n), warp_img)
 end_time = time.time()  # время окончания выполнения
 execution_time = round(end_time - start_time)
 print(execution_time)
