@@ -6,7 +6,7 @@ This repository contains materials from the study D.Mangileva "The optimal mlp-b
 
 To run on a computer, use PyTorch version >= 1.3.
 
-The folders contain noisy and noise‑free images with displacement fields of different frequencies. 
+The folders "noised images" and "non-noised images" contain noisy and noise‑free images with displacement fields of different frequencies. 
 
 - In line 143, specify the folder name where model results and weights will be saved.
 - In lines 145–146, insert the path to the images.
