@@ -17,6 +17,6 @@ A detailed description of the research can be found in the article:
 
 Mangileva, Daria. "The optimal mlp-based model for displacement field measurement in 2d images and its application perspective." Proceedings of the 2024 2nd Asia Conference on Computer Vision, Image Processing and Pattern Recognition. 2024.
 
-See references.bib for BibTeX citations.
+See [references.bib](cite.bib) for BibTeX citations.
 
 
